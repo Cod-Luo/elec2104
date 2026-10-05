@@ -25,4 +25,12 @@ ylim([0 7e-3]);
 
 set(gca, 'FontSize', 16);
 
+text(0.8,1.0e-3,'Triode','FontSize',12);
+text(3.5,1.9e-3,'Saturation','FontSize',12);
+
+text(1.2,2.3e-3,'Triode','FontSize',12);
+text(4.0,3.7e-3,'Saturation','FontSize',12);
+
+text(1.8,4.0e-3,'Triode','FontSize',12);
+text(5.0,5.9e-3,'Saturation','FontSize',12);
 hold off;
