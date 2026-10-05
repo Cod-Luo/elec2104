@@ -1,6 +1,6 @@
-Case_3V = readtable('VG_3V.csv');
-Case_4V = readtable('VG_4V.csv');
-Case_5V = readtable('VG_5V.csv');
+Case_3V = readtable('VG_3V.csv','NumHeaderLines',10,'ReadVariableNames',false);
+Case_4V = readtable('VG_4V.csv','NumHeaderLines',10,'ReadVariableNames',false);
+Case_5V = readtable('VG_5V.csv','NumHeaderLines',10,'ReadVariableNames',false);
 
 y1 = smoothdata(Case_3V.Var2,'sgolay',15);
 y2 = smoothdata(Case_4V.Var2,'sgolay',15);
